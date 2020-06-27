@@ -23,7 +23,7 @@ namespace ZooManager.Database
         /// </summary>
         public static void OpenDb()
         {
-            String connection = @"Data Source=DESKTOP-K4320T8;Initial Catalog=ZooDB;Integrated Security=True;Pooling=False";
+            String connection = @"Connection string goes here";
             sc = new SqlConnection(connection);
 
             sc.Open();
